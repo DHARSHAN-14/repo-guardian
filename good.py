@@ -1,3 +1,2 @@
 print("Hello world")
 
-AWS_KEY = AFZAKDFJIWIJEJWASDKJADS
