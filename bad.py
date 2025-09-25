@@ -7,5 +7,3 @@ print("Hello world")
 
 
 
-
-
