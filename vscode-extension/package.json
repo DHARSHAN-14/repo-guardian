@@ -1,0 +1,29 @@
+{
+  "name": "repoguardian-vscode",
+  "displayName": "RepoGuardian",
+  "description": "On-save secrets scanner for RepoGuardian",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Linters"
+  ],
+  "activationEvents": [
+    "onLanguage:python",
+    "onLanguage:javascript",
+    "onLanguage:json",
+    "onLanguage:yaml",
+    "workspaceContains:.repoguardian.yml",
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "repoguardian.scan",
+        "title": "RepoGuardian: Scan Current File"
+      }
+    ]
+  }
+}

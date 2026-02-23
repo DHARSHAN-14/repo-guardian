@@ -1,0 +1,62 @@
+allowlist_patterns:
+  - "DUMMY_KEY"            # safe demo values
+  - "TEST_SECRET"
+scan_file_extensions:
+  - ".py"
+  - ".js"
+  - ".env"
+  - ".yaml"
+  - ".yml"
+  - ".json"
+  - ".tf"
+block_file_extensions:
+  - ".pem"
+  - ".pfx"
+  - ".key"
+ignore_paths:
+  - "venv"
+  - ".venv"
+  - "node_modules"
+  - ".git"
+  - "evidence"
+min_entropy: 4.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# signing_key: "demo-sign-key"   # optional HMAC for proof
+detector_mode: commit

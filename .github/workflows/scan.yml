@@ -1,0 +1,15 @@
+name: RepoGuardian Scan
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup python
+        run: python3 -m venv venv && . venv/bin/activate && pip install --upgrade pip
+      - name: Install deps
+        run: . venv/bin/activate && pip install GitPython pyyaml
+      - name: Run RepoGuardian
+        run: . venv/bin/activate && python scanner.py

@@ -1,0 +1,40 @@
+{
+  "commit_sha": "bd1d385f618fa52b7f5c5e58aa0f4dd5b81ac259",
+  "author": "DHARSHAN-14",
+  "branch": "master",
+  "remote": "https://github.com/DHARSHAN-14/repo-guardian.git",
+  "timestamp_utc": "2026-02-23T09:28:35.582841+00:00",
+  "findings": [
+    {
+      "line": 2,
+      "type": "regex",
+      "match": "var = AKIAIOSFODNN7EXAMPLE",
+      "file": "bad.py"
+    },
+    {
+      "line": 4,
+      "type": "entropy",
+      "match": "key = wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY",
+      "file": "bad.py"
+    },
+    {
+      "line": 5,
+      "type": "entropy",
+      "match": "key = wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY",
+      "file": "bad.py"
+    },
+    {
+      "line": 6,
+      "type": "entropy",
+      "match": "key = wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY",
+      "file": "bad.py"
+    },
+    {
+      "line": 7,
+      "type": "entropy",
+      "match": "key = wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY",
+      "file": "bad.py"
+    }
+  ],
+  "digest": "105e99ffffa1098411c6fa45a94e60fe0578f133e9af59c4b533daad69f27a3b"
+}
