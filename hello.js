@@ -3,3 +3,4 @@ console.log("hello")
 console.log("world")
 console.log("move")
 console.log("key removed");
+var name = 'd';
