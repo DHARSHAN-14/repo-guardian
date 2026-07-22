@@ -1,0 +1,16 @@
+{
+  "commit_sha": "caf33c8e0c3370db47dd43777f6029d5dc8de388",
+  "author": "DHARSHAN-14",
+  "branch": "master",
+  "remote": "https://github.com/DHARSHAN-14/repo-guardian.git",
+  "timestamp_utc": "2026-07-22T19:13:40.919522+00:00",
+  "findings": [
+    {
+      "line": 6,
+      "type": "regex",
+      "match": "var key= AKIAIOSFODNN7EXAMPLE",
+      "file": "hello.js"
+    }
+  ],
+  "digest": "cf62e4714d0e72a08003d14d34ad9d77767dd123d5801668cf505ea8f19501af"
+}
