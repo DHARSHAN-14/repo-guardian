@@ -19,6 +19,7 @@ ignore_paths:
   - "node_modules"
   - ".git"
   - "evidence"
+  - "index.env"
 min_entropy: 4.5
 
 
